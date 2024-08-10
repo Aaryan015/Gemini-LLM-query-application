@@ -58,7 +58,7 @@ Output:
 ]
 ```
 
-### Additional Features: 🌻
+### Additional Features: 🚀
 
 - Handles variations in user queries, such as different spellings or abbreviations of company names and metric parameters.
 - Implements error handling for cases where the LLM fails to extract the necessary information from the user query.
