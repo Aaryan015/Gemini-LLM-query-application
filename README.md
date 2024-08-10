@@ -1,8 +1,8 @@
-### An LLM-powered application which takes user queries related to company performance metrics and converts them into a structured JSON format.
+### An LLM-powered application which takes user queries related to company performance metrics and converts them into a structured JSON format ✨
 
-### Features:
+### Features: 🪄
 1. Uses Google Gemini API to process user queries.
-2. The application is  able to extract the following information from user queries:
+2. The application is able to extract the following information from user queries:
 - Entity: The company name mentioned in the query (e.g., Flipkart, Amazon).
 - Parameter: The performance metric mentioned in the query (e.g., GMV, revenue, profit).
 - Start Date: The start date of the time period for which the metric is requested.
@@ -23,10 +23,10 @@
 ```
 
 5. If the user query mentions multiple companies or requests a comparison, the JSON output will include multiple objects, one for each company mentioned.
-6. The start date and end date are be converted to the ISO 8601 format (YYYY-MM-DD).
-7. The LLM can be used to understand the user query and extract relevant information, while Python is used for data manipulation and JSON conversion.
+6. The start date and end date are converted to the ISO 8601 format (YYYY-MM-DD).
+7. The LLM understands the user query and extract relevant information, while Python is used for data manipulation and JSON conversion.
 
-### Example Usage:
+### Example Usage: 🤸‍♂️
 
 ```
 User: Get me Flipkart’s GMV for the last one year
@@ -58,7 +58,7 @@ Output:
 ]
 ```
 
-### Additional Features:
+### Additional Features: 🌻
 
 - Handles variations in user queries, such as different spellings or abbreviations of company names and metric parameters.
 - Implements error handling for cases where the LLM fails to extract the necessary information from the user query.
